@@ -1,0 +1,693 @@
+body {
+font-family:"Trebuchet MS";
+background:#e4e6e7;
+margin:0;
+padding:0;
+}
+
+img.align-right {
+float:right;
+margin:0 0 5px 10px;
+}
+
+img.align-left {
+float:left;
+margin:0 10px 5px 0;
+}
+
+#wrapper {
+width:1266px;
+position:relative;
+overflow:hidden;
+background:#fff;
+box-shadow:2px 2px 5px #999;
+-moz-box-shadow:2px 2px 5px #999;
+-webkit-box-shadow:2px 2px 5px #999;
+-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=5,direction='180' Color='#999999')";
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=0,strength=0) progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=90,strength=5) progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=180,strength=5) progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=270,strength=5);
+margin:0 auto;
+padding:0;
+}
+
+#header {
+width:100%;
+background:url(../translation_quote/translation-quotes.gif);
+height:112px;
+padding-top:5px;
+}
+
+#header #logo {
+float:left;
+margin:0 5px;
+}
+
+#header #top {
+float:right;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#010101;
+font-weight:400;
+text-decoration:none;
+text-align:right;
+margin:15px 10px;
+}
+
+.top-link {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#010101;
+font-weight:400;
+text-decoration:none;
+padding:5px;
+}
+
+a.top-link {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#010101;
+font-weight:400;
+text-decoration:none;
+}
+
+a.top-link:hover {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#010101;
+font-weight:400;
+text-decoration:underline;
+}
+
+.support {
+font-family:Arial,Helvetica,sans-serif;
+font-size:14px;
+font-weight:700;
+}
+
+#top-slides {
+width:775px;
+height:220px;
+float:left;
+margin-top:10px;
+border:1px solid #000;
+display:none;
+}
+
+#top-slides img {
+display:block;
+}
+
+#top-slides .caption {
+width:775px;
+height:30px;
+line-height:30px;
+color:#FFF;
+font-size:12px;
+font-weight:700;
+left:0;
+bottom:0;
+text-indent:10px;
+position:absolute;
+z-index:10;
+background:url(../img/caption-bg.png) repeat;
+}
+
+#menu {
+background:#1c3345 url(../translation_quote/translation.gif) repeat-x;
+border-left:1px solid #fff;
+border-right:1px solid #fff;
+width:100%;
+float:left;
+padding:9px 0 12px 5px;
+}
+
+#menu li {
+float:left;
+display:inline;
+}
+
+#menu a {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#FFF;
+font-weight:700;
+text-transform:uppercase;
+text-decoration:none;
+border-right:1px solid #171f25;
+padding:13px 29px;
+}
+#mobilenav{display:none;}
+.slicknav_menu{display:none;}
+
+#section {
+width:1266px;
+padding-bottom:15px;
+position:relative;
+margin:0 10px;
+}
+
+#banner {
+height:225px;
+width:100%;
+color:#FFF;
+}
+
+#banner #left {
+float:left;
+position:relative;
+margin:25px 10px 0;
+padding:0;
+}
+
+#banner #left .contact-us {
+position:absolute;
+left:10px;
+bottom:15px;
+color:#1e374b;
+}
+
+#banner #left .contact-us a {
+color:#006e2e;
+}
+
+#banner #left .contact-us a:hover {
+text-decoration:underline;
+}
+
+#banner #left .contact-us img {
+margin-bottom:-2px;
+}
+
+#banner #left .contact-us img.email-address {
+margin-bottom:-4px;
+margin-left:3px;
+}
+
+.puzzle {
+width:100%;
+border:1px solid #DDD;
+}
+
+.voting {
+width:100%;
+float:left;
+margin-bottom:10px;
+display:none;
+}
+
+.votes,.rating {
+float:left;
+}
+
+.votes {
+margin-left:10px;
+font-style:italic;
+}
+
+#banner #left h1 {
+font-size:48px;
+color:#FFF;
+margin:0 0 10px;
+padding:0;
+}
+
+.green {
+color:#33b55b;
+}
+
+#banner #left ul li {
+background:url(../translation_quote/translations-quote.png);
+background-repeat:no-repeat;
+background-position:center left;
+color:#a6d2b6;
+font-size:22px;
+list-style-type:none;
+padding-left:35px;
+line-height:42px;
+}
+
+#banner #right {
+float:right;
+width:775px;
+margin:0 10px 0 0;
+padding:0 10px 0 0;
+}
+
+#sec-left {
+width:360px;
+margin-top:10px;
+margin-left:10px;
+float:left;
+}
+
+#sec-left .box {
+width:100%;
+float:left;
+background:#f2f2f2;
+border:1px solid #ddd;
+margin-top:5px;
+font-family:Arial,Helvetica,sans-serif;
+font-size:14px;
+padding:1px;
+}
+
+#sec-left .box h1 {
+background:#006e2e;
+font-family:Arial,Helvetica,sans-serif;
+font-weight:700;
+color:#FFF;
+font-style:italic;
+font-size:17px;
+margin:0;
+padding:7px;
+}
+
+#sec-left .box h2 {
+background:#006e2e;
+font-family:Arial,Helvetica,sans-serif;
+font-weight:700;
+color:#FFF;
+font-style:italic;
+font-size:15px;
+margin:0;
+padding:7px;
+}
+
+#sec-left .box ul {
+margin:0;
+padding:8px 15px;
+}
+
+#sec-left .box ul li {
+list-style-type:none;
+background-image:url(../translation_quote/translations.gif);
+background-repeat:no-repeat;
+padding-left:10px;
+line-height:20px;
+background-position:center left;
+}
+
+#sec-left .box ul li a {
+color:#333;
+text-decoration:none;
+font-size:12px;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+#sec-left .box ul li a:hover {
+color:#118912;
+}
+
+#sec-left .box .gsa-link {
+float:left;
+margin:5px 5px 2px;
+}
+
+.side-form {
+float:left;
+padding:10px;
+}
+
+.side-form label {
+display:block;
+font-size:12px;
+margin-bottom:2px;
+}
+
+.side-form label.error {
+font-size:11px;
+color:#C00;
+padding-top:3px;
+margin:0;
+}
+
+.side-form .input-wrap {
+width:100%;
+float:left;
+margin:5px 0;
+}
+
+.side-form .input-wrap.submit {
+margin-bottom:10px;
+}
+
+.side-form .input-wrap.poll label {
+display:inline-block;
+margin-left:5px;
+font-size:14px;
+line-height:1em;
+}
+
+.side-form .input-wrap.poll .radio-option {
+margin-left:5px;
+}
+
+.side-form .input-text {
+width:100%;
+height:25px;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+margin:0;
+padding:0 .25em;
+}
+
+.side-form .input-text#client-deadline {
+width:90%;
+}
+
+.side-form .ui-datepicker-trigger {
+float:right;
+cursor:pointer;
+padding:5px;
+}
+
+.side-form select {
+width:100%;
+height:25px;
+-webkit-appearance:menulist-button;
+}
+
+.content-form {
+width:50%;
+}
+
+.content-form .side-form {
+padding:0;
+}
+
+.poll-results {
+width:100%;
+float:left;
+padding:10px 0;
+}
+
+.poll-result {
+font-size:12px;
+padding:5px 15px;
+}
+
+.poll-result .bar-wrap {
+width:100%;
+float:left;
+border:1px solid #DDD;
+background:#FFF;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+margin-bottom:5px;
+margin-top:2px;
+padding:2px;
+}
+
+.poll-result .bar-wrap .bar {
+background:#006e2e;
+float:left;
+height:7px;
+}
+
+#vote {
+float:left;
+line-height:26px;
+width:91%;
+background:#C2DAD3;
+font-family:"Trebuchet MS";
+font-size:12px;
+padding:15px;
+}
+
+.vote-link {
+font-family:"Trebuchet MS";
+color:#037805;
+font-size:12px;
+text-decoration:none;
+font-weight:400;
+line-height:normal;
+}
+
+#client-slides {
+float:left;
+position:relative;
+width:304px;
+height:197px;
+padding:10px 13px;
+}
+
+#sec-right {
+margin-top:15px;
+margin-left:15px;
+padding-left:0;
+float:left;
+width:865px;
+}
+
+#content-box {
+float:left;
+width:auto;
+}
+
+#content-box #top {
+background:url(../translation_quote/quote_translation2.jpg);
+float:left;
+width:853px;
+background-repeat:no-repeat;
+padding:7px;
+}
+
+#content-box #top h1 {
+background:url(../img/header-icon.png);
+color:#1e374b;
+font-size:18px;
+background-repeat:no-repeat;
+padding-left:32px;
+background-position:bottom left;
+margin:0 0 0 5px;
+}
+
+#content-box #bg {
+background:#ededed;
+border-left:1px solid #cfcfcf;
+border-right:1px solid #cfcfcf;
+float:left;
+width:835px;
+padding:5px 15px;
+}
+
+#content-box #bg h3 {
+font-size:16px;
+font-weight:700;
+color:#006e2e;
+margin:0;
+padding:0;
+}
+
+.text {
+font-size:12px;
+color:#333;
+line-height:18px;
+text-align:justify;
+}
+
+.h4 {
+background:url(../translation_quote/translations-quote.jpg);
+color:#FFF;
+font-size:14px;
+font-weight:700;
+margin:0;
+padding:0 0 0 8px;
+}
+
+#content-box #bottom {
+background:url(../translation_quote/translatrion_quote.jpg);
+height:12px;
+width:867px;
+float:left;
+}
+
+.list {
+list-style-type:square;
+font-weight:400;
+}
+
+#boxes {
+width:867px;
+float:left;
+margin-top:10px;
+margin-bottom:20px;
+}
+
+#boxes ul {
+margin:0;
+padding:0;
+}
+
+#boxes ul li {
+float:left;
+list-style-type:none;
+background:url(../translation_quote/translate.png);
+width:398px;
+height:214px;
+margin-bottom:10px;
+padding:15px;
+}
+
+#boxes ul li h2 {
+background:url(../img/header-icon.png);
+color:#1e374b;
+font-size:16px;
+background-repeat:no-repeat;
+padding-left:32px;
+background-position:center left;
+padding-top:5px;
+padding-bottom:5px;
+margin:0 0 0 5px;
+}
+
+#boxes ul li .head {
+float:left;
+width:100%;
+background:url(../translation_quote/translators.png);
+}
+
+#boxes ul li .txt {
+float:left;
+width:100%;
+font-size:12px;
+line-height:22px;
+padding-top:5px;
+text-align:justify;
+}
+
+#boxes ul li .txt img.align-left {
+padding-top:5px;
+}
+
+#footer {
+width:1240px;
+background:url(../translation_quote/translation-quote.gif);
+text-align:center;
+color:#FFF;
+font-size:12px;
+margin:15px auto 25px;
+padding:12px;
+}
+
+#footer a {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#ddd;
+text-decoration:none;
+}
+
+#footer a:hover {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#fff;
+text-decoration:none;
+}
+
+.input {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+width:200px;
+border:1px solid #d4d4d4;
+padding:2px;
+}
+
+.input2[type=submit] {
+font-family:Arial,Helvetica,sans-serif;
+font-size:14px;
+font-weight:700;
+color:#FFF;
+background:#063;
+border:1px solid #033;
+cursor:pointer;
+border-radius:3px;
+padding:5px 25px;
+}
+
+#gallery {
+position:relative;
+height:250px;
+margin-top:5px;
+}
+
+#gallery a {
+float:left;
+position:absolute;
+}
+
+#gallery a.show {
+z-index:500;
+}
+
+#gallery .caption {
+z-index:600;
+background-color:#000;
+color:#fff;
+height:35px;
+width:100%;
+position:absolute;
+bottom:0;
+}
+
+#gallery .caption .content {
+margin:5px;
+}
+
+#gallery .caption .content h3 {
+color:#1DCCEF;
+margin:0;
+padding:0;
+}
+
+a:link,a:visited,a:hover,a:active {
+text-decoration:none;
+}
+
+img,#gallery a img {
+border:0;
+}
+
+#menu a:hover,#menu .active {
+background:#006e2e;
+}
+
+#banner #left ul,.p1 {
+margin:0;
+padding:0;
+}
+
+.side-form .hide,.side-form .input-wrap.url {
+display:none;
+}
+
+.side-form .input-wrap.submit .right,#boxes ul li.end {
+float:right;
+}
+
+a.vote-link,a.vote-link:hover {
+font-family:"Trebuchet MS";
+color:#037805;
+font-size:12px;
+text-decoration:none;
+font-weight:400;
+}
+
+#content-box #bg a,#boxes ul li .txt a {
+font-size:12px;
+color:#333;
+line-height:18px;
+text-align:justify;
+text-decoration:none;
+}
+.mobileadd{display:none;}
+.translate select {width:350px; }
+
+#client-slides img {width:304px; height:197px;}
+.langServ img { width: 330px;
+}
+.langServ2 img {  width: 330px;
+height:109px;
+  }
+
+ 
